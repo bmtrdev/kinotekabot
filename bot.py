@@ -5,6 +5,7 @@ import aiohttp
 from aiogram import Bot, Dispatcher, types, F
 from aiogram.filters import Command
 from dotenv import load_dotenv
+from openai import OpenAI
 
 # Загруженные переменные окружения
 load_dotenv()
